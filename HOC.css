@@ -1,0 +1,264 @@
+body
+{
+	background-color: black;
+}
+#links
+{
+	background-color: black;
+	float: left;
+	margin-top: 134px;
+	margin-bottom: 67;
+	width: 104px;
+	height: 469px;
+}
+.pijlen
+{
+	margin-top: 170px;
+	height: 130px;
+	margin-left: 12px;
+}
+#rechts
+{
+	background-color: black;
+	float: right;
+	margin-top: 134px;
+	margin-bottom: 67;
+	width: 104px;
+	height: 469px;
+}
+#timebar
+{
+	margin: auto;
+	width: 1200px;
+	height: 60px;
+	background: url(foto/tijdlijn1.png);
+}
+#teid
+{
+	width: 40px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 120px;
+}
+.jaar
+{
+	color: white;
+	margin-top: 10px;
+}
+.teid
+{
+	width: 40px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 23px;
+}
+#klikken
+{
+	width: 40px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 120px;
+	background: transparent;
+}
+.klikken
+{
+	width: 40px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 23px;
+	margin-top:	4px;
+	background: transparent;
+}
+#tekst
+{
+	background-color: #2B2929;
+	margin: auto;
+	margin-top: 7px;
+	width: 1200px;
+	height: 60px;
+}
+.subjaar:hover, #subjaar:hover {
+    background-color: red;
+    height: 60px;
+    -webkit-transition: 300ms linear 0s;
+    -moz-transition: 300ms linear 0s;
+    -o-transition: 300ms linear 0s;
+    transition: 300ms linear 0s;
+}
+#subjaar
+{
+	width: 110px;
+	height: 50px;
+	background-color: red;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;	
+}
+.subteid
+{
+	margin: auto;
+	color: white;
+	margin-top: 17px;
+	margin-left: 38px;
+}
+.subjaar
+{
+	width: 110px;
+	height: 50px;
+	background-color: red;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#uitleg
+{
+	background-color: black;
+	margin: auto;
+	margin-top: 7px;
+	width: 1200px;
+	height: 467px;
+}
+.terug{
+	display: none;
+}
+#een
+{
+	background-color: #2B2929;
+	width: 595px;
+	height: 230px;
+	float: left;
+}
+.naast
+{
+	color: white;
+	float: right;
+	margin-bottom: 1px;
+	margin-left: 214px;
+}
+.links
+{
+	margin-left: 9px;
+	height: 40px;
+	margin-top: 5px;
+}
+.foto
+{
+	background-color: blue;
+	margin-top: 7px;
+	margin-left: 7px;
+	width: 200px;
+	height: 120px;
+}
+.onder
+{
+	color: white;
+	margin-left: 7px;
+	margin-top: 1px;
+}
+#twee
+{
+	background-color: #2B2929;
+	width: 595px;
+	height: 230px;
+	float: right;
+}
+#drie
+{
+	background-color: #2B2929;
+	margin-top: 7px;
+	width: 595px;
+	height: 230px;
+	float: left;
+}
+#vier
+{
+	background-color: #2B2929;
+	margin-top: 7px;
+	width: 595px;
+	height: 230px;
+	float: right;
+}
+#een:hover {
+
+    -webkit-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    -moz-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    box-shadow: inset 0 0 30px 15px #C7C7C7;
+
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+
+    cursor: pointer;
+}
+#twee:hover {
+
+    -webkit-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    -moz-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    box-shadow: inset 0 0 30px 15px #C7C7C7;
+
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+
+    cursor: pointer;
+}
+#drie:hover {
+
+    -webkit-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    -moz-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    box-shadow: inset 0 0 30px 15px #C7C7C7;
+
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+
+    cursor: pointer;
+}
+#vier:hover {
+
+    -webkit-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    -moz-box-shadow: inset 0 0 30px 15px #C7C7C7;
+    box-shadow: inset 0 0 30px 15px #C7C7C7;
+
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+
+    cursor: pointer;
+}
+#footer
+{
+	background-color: #2B2929;
+	margin: auto;
+	margin-top: 7px;
+	width: 1200px;
+	height: 60px;
+}
+#makers
+{
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.iccon
+{
+	height: 60px;
+	width: 60px;
+	float: right;
+	margin-left: 10px;
+}
+
+
+
+
+
+
