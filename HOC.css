@@ -1,10 +1,11 @@
 body
 {
-	background-color: black;
+	background: url(foto/background.png);
+	background-size: contain;
 }
 #links
 {
-	background-color: black;
+	background-color: transparent;
 	float: left;
 	margin-top: 134px;
 	margin-bottom: 67;
@@ -19,7 +20,7 @@ body
 }
 #rechts
 {
-	background-color: black;
+	background-color: transparent;
 	float: right;
 	margin-top: 134px;
 	margin-bottom: 67;
@@ -37,7 +38,7 @@ body
 {
 	width: 40px;
 	height: 20px;
-	background-color: black;
+	background-color: transparent;
 	display: inline-block;
 	margin-left: 120px;
 }
@@ -50,7 +51,7 @@ body
 {
 	width: 40px;
 	height: 20px;
-	background-color: black;
+	background-color: transparent;
 	display: inline-block;
 	margin-left: 23px;
 }
@@ -58,7 +59,7 @@ body
 {
 	width: 40px;
 	height: 20px;
-	background-color: black;
+	background-color: transparent;
 	display: inline-block;
 	margin-left: 120px;
 	background: transparent;
@@ -67,7 +68,8 @@ body
 {
 	width: 40px;
 	height: 20px;
-	background-color: black;
+	background-color: transparent
+	!important;
 	display: inline-block;
 	margin-left: 23px;
 	margin-top:	4px;
@@ -110,13 +112,18 @@ body
 	width: 110px;
 	height: 50px;
 	background-color: red;
+	opacity: 0.5;
 	display: inline-block;
 	margin-top: 5px;
 	margin-left: 5px;
 }
+.gebruik
+{
+	opacity: 1
+}
 #uitleg
 {
-	background-color: black;
+	background-color: transparent;
 	margin: auto;
 	margin-top: 7px;
 	width: 1200px;
@@ -131,7 +138,6 @@ body
 	width: 595px;
 	height: 230px;
 	float: left;
-    overflow: hidden;
 }
 .naast
 {
@@ -166,7 +172,6 @@ body
 	width: 595px;
 	height: 230px;
 	float: right;
-    overflow: hidden;
 }
 #drie
 {
@@ -175,7 +180,6 @@ body
 	width: 595px;
 	height: 230px;
 	float: left;
-    overflow: hidden;
 }
 #vier
 {
@@ -184,7 +188,6 @@ body
 	width: 595px;
 	height: 230px;
 	float: right;
-    overflow: hidden;
 }
 #een:hover {
 
@@ -266,8 +269,3 @@ body
 
 
 
-
-.clear {
-    display: none;
-    clear: both;
-}
