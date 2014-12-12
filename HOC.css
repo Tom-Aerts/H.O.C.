@@ -131,6 +131,7 @@ body
 	width: 595px;
 	height: 230px;
 	float: left;
+    overflow: hidden;
 }
 .naast
 {
@@ -165,6 +166,7 @@ body
 	width: 595px;
 	height: 230px;
 	float: right;
+    overflow: hidden;
 }
 #drie
 {
@@ -173,6 +175,7 @@ body
 	width: 595px;
 	height: 230px;
 	float: left;
+    overflow: hidden;
 }
 #vier
 {
@@ -181,6 +184,7 @@ body
 	width: 595px;
 	height: 230px;
 	float: right;
+    overflow: hidden;
 }
 #een:hover {
 
@@ -262,3 +266,8 @@ body
 
 
 
+
+.clear {
+    display: none;
+    clear: both;
+}
