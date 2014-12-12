@@ -1,0 +1,54 @@
+@media only screen and (max-width:580px) {
+
+	#links {
+		direction:  ;
+		display:  none;
+	}
+
+	#rechts {
+		display:  none;
+	}
+
+	#timebar {
+		width:  350px;
+	}
+
+	#tekst {
+		width:  300px;
+		height:  60px;
+	}
+
+	#uitleg {
+		width:  300px;
+	}
+
+	#een {
+		width:  300px;
+	}
+
+	.links {
+		height:  40px;
+	}
+
+	.foto {
+		width:  200px;
+	}
+
+	#twee {
+		width:  300px;
+	}
+
+	#drie {
+		width:  300px;
+	}
+
+	#vier {
+		width:  300px;
+	}
+
+	#footer {
+		width:  300px;
+		height:  110px;
+	}
+
+}
